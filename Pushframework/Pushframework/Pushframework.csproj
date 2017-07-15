@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\ProtocolFramework\ProtocolFramework.csproj" />
+    <ProjectReference Include="..\WebsocketProtocol\WebsocketProtocol.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MaxMind.Db" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+</Project>
