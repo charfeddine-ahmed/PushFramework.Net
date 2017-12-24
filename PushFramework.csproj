@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Description>Real Time Servers Development Library</Description>
+    <PackageProjectUrl>http://www.pushframework.com/</PackageProjectUrl>
+    <Authors>Ahmed Charfeddine</Authors>
+    <Company>Push Framework</Company>
+    <PackageTags>Real-time websocket push asynchronous</PackageTags>
+    <RepositoryUrl>https://github.com/charfeddine-ahmed/PushFramework.Net</RepositoryUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="ProtocolFramework" Version="1.0.1" />
+    <PackageReference Include="WebsocketProtocol" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
